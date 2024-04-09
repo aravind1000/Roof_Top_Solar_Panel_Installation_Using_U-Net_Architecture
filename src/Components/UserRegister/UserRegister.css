@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Main{
+    background: url('G:/roofTop solar panel installation/renewai/src/images/2016.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.User-Register-Form
+{
+    height: 100vh;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 200px;
+    align-items: center;
+}
+.Register-form{
+    position: relative;
+    bottom: 5px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid white;
+    background-color: rgb(37, 84, 126);
+    /* background: transparent; */
+    border-radius: 20px;
+}
+.Register-form h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+.Input-box
+{
+    position: relative;
+    padding-left:20px;
+    width: 90%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+
+input:focus::-webkit-input-placeholder {
+	opacity : 0;
+}
+
+
+.Input-box >input
+{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    color: white;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid rgb(251, 246, 246);
+    border-radius: 40px;
+}
+.Input-box >input::placeholder{
+    font-size: large;
+    padding-left: 10px;
+    color: rgb(249, 244, 244);
+}
+ .Input-box .icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: rgb(246, 242, 242);
+}
+
+.sign-up-button
+{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-up-button
+{
+    margin-top: 3px;
+}
+
+.sign-in
+{
+    margin-top: 3px;
+}
+.sign-in p{
+    color: white;
+}
+.sign-in a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-weight: 600;
+}
