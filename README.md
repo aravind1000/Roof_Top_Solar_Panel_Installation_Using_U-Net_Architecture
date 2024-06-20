@@ -23,7 +23,7 @@ This project implements a deep learning model for semantic segmentation of solar
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the main.py script to train the U-Net model:
+3. Run the train.py script to train the U-Net model:
 
     ```bash
     python train.py
