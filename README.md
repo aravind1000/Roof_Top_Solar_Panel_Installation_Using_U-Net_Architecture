@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a deep learning model for semantic segmentation of solar panels in satellite images using the U-Net architecture. Semantic segmentation is a computer vision task that involves assigning a class label to each pixel in an image. In this project, we focus on segmenting solar panels from satellite images, which can be useful for various applications such as urban planning, energy monitoring, and environmental studies.
+This project focused on segmenting solar panels from aerial imagery using the U-Net deep learning model to precisely identify and extract solar panel regions. The U-Net architecture is designed for precise image segmentation, featuring an encoder-decoder structure with skip connections. The encoder captures hierarchical features through convolutional layers and max-pooling, while the decoder reconstructs the image with transposed convolutions to identify the solar panels accurately. Skip connections help retain spatial details, improving segmentation quality.
 
 ## Requirements
 
