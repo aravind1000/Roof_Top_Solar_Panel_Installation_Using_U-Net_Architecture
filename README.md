@@ -16,7 +16,9 @@ This project focused on segmenting solar panels from aerial imagery using the U-
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/aravind1000/Deep_Solar_Segmentation_Using_U-Net_Architecture.git
+    git clone https://github.com/aravind1000/Roof_Top_Solar_Panel_Installation_Using_U-Net_Architecture.git
+
+    cd Roof_Top_Solar_Panel_Installation_Using_U-Net_Architecture
     ```
 2. Install the require dependencies:
 
