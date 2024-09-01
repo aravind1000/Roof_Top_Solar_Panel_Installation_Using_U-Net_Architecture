@@ -1,4 +1,4 @@
-# Deep Solar Segmentation Using U-Net Architecture
+# Roof Top Solar Panel Installation Using U-Net Architecture
 
 ## Overview
 
